@@ -2,7 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import tensorflow.compat.v1 as tf
 tf.disable_v2_behavior()
-import osk
+import os
 
 from sklearn.model_selection import train_test_split
 os.environ["CUDA_VISIBLE_DEVICES"] = "-1" #Disable GPU
